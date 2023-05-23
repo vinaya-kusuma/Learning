@@ -6,9 +6,8 @@ public class Demo1 {
 
     public static void main(String[] args){
 
-        Rectangle rec = new Rectangle();
-        rec.length = 10;
-        rec.width = 5;
+        Rectangle rec = new Rectangle(10,5);
+
         System.out.println("the area of rectangle is:" + rec.getArea());
 
        SavingsAccount sa = new SavingsAccount();
