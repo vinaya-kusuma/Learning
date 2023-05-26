@@ -7,10 +7,10 @@ class Value {
         this.data = data;
     }
 
-    @Override
-    public String toString() {
-        return "Value{" +
-                "data='" + data + '\'' +
-                '}';
-    }
+   @Override
+   public String toString() {
+       return "Value{" +
+               "data='" + data + '\'' +
+               '}';
+   }
 }
